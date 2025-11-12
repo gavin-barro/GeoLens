@@ -1,0 +1,33 @@
+geolens/
+├── geolens/                     # main package
+│   ├── __init__.py
+│   ├── exif_reader.py           # handles raw EXIF extraction
+│   ├── geo_parser.py            # parses lat/long from EXIF GPS data
+│   ├── utils.py                 # helper functions
+│   ├── cli.py                   # command-line interface entry
+│   ├── safety_check.py          # optional: privacy/safety utilities
+│   └── map_visualizer.py        # optional: plot photo location on a map
+│
+├── tests/                       # unit & integration tests
+│   ├── __init__.py
+│   ├── test_exif_reader.py
+│   ├── test_geo_parser.py
+│   └── test_cli.py
+│
+├── data/                        # sample photos for testing
+│   └── sample1.jpg
+│
+├── scripts/                     # helper or deployment scripts
+│   └── convert_all.py
+│
+├── examples/                    # example notebooks or scripts
+│   └── demo_extract_location.ipynb
+│
+├── docs/                        # optional: documentation, API refs
+│   └── index.md
+│
+├── .gitignore
+├── pyproject.toml               # modern dependency/config file
+├── README.md
+├── LICENSE
+└── requirements.txt             # for pip installs (optional)
