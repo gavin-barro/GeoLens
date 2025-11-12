@@ -1,0 +1,4 @@
+Pillow
+typer
+geopy
+pytest
