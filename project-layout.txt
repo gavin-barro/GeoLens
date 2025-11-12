@@ -1,4 +1,4 @@
-geolens/
+Geolens/
 ├── geolens/                     # main package
 │   ├── __init__.py
 │   ├── exif_reader.py           # handles raw EXIF extraction

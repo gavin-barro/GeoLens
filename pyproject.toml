@@ -1,0 +1,16 @@
+[project]
+name = "geolens"
+version = "0.1.0"
+description = "EXIF and geolocation toolkit"
+authors = [
+    { name = "Gavin Barro" }
+]
+dependencies = []
+
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["geolens"]
+exclude = ["tests*", "data*", "docs*", "examples*", "scripts*"]
